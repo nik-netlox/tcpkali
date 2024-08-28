@@ -31,7 +31,7 @@
 #include <stdarg.h>
 #include <sys/types.h>
 #include <sys/resource.h>
-#include <sys/sysctl.h>
+#include <linux/sysctl.h>
 #include <sys/socket.h>
 #include <errno.h>
 #include <assert.h>

@@ -490,7 +490,7 @@ open_connections_until_maxed_out(enum work_phase phase, struct oc_args *args,
 
                 fprintf(stderr,
                         "%sTraffic %.3f↓, %.3f↑ Mbps "
-                        "(%s%ld↓ %ld↑ %ld⇡; %s%ld)%s%s%s\r",
+                        "(%s%ld↓ %ld↑ %ld⇡; %s%ld)%s%s%s\n\r",
                         time_progress(args->checkpoint.epoch_start, now, args->epoch_end),
                         bps_in / 1000000.0, bps_out / 1000000.0,
                         requested_latency_types ? "" : "conns ",
